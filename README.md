@@ -29,24 +29,25 @@ marché français.
             
 # MODÈLE THÉORIQUE DE REGRESSION LINÉAIRE MULTIPLE 
 
-         Le rendement du CAC 40 à l’instant t, noté Rcac(t), est expliqué par les rende-
-         ments de deux indices de marché Rstoxx(t) et Rdax(t) selon le modèle :
-         Rcac(t) = α+ β1Rstoxx(t) + β2Rdax(t) + εt, t= 1,...,T (1)
-         oÙ :
+Le rendement du CAC 40 à l’instant t, noté Rcac(t), est expliqué par les rende
+ments de deux indices de marché Rstoxx(t) et Rdax(t) selon le modèle :
+Rcac(t) = α+ β1Rstoxx(t) + β2Rdax(t) + εt, t= 1,...,T (1)
+oÙ :
 
 
-          • α est une constante r´eelle .
-          • β1,β2 sont des coefficients r´e´els de r´egression repr´esentant la sensibilit´e du
-            CAC 40 aux indices stoxx et dax.
-          • εt est le terme d’erreur, suivant la loi normale centr´e de param´etre :
-            E[εt] = 0, Var(εt) = σ2, Cov(εt,εs) = 0 pourt̸= s
+• α est une constante r´eelle .
+• β1,β2 sont des coefficients r´e´els de r´egression repr´esentant la sensibilit´e du
+CAC 40 aux indices stoxx et dax.
+• εt est le terme d’erreur, suivant la loi normale centr´e de param´etre :
+E[εt] = 0, Var(εt) = σ2, Cov(εt,εs) = 0 pourt̸= s
 
 # REVUE DE LA LITTERATURE
 
-        Les modèles multifactoriels sont largement utilisés en finance pour expliquer
-        les rendements des indices boursiers. Ces mod`eles permettent de distinguer
-        les performances propres d’un march´e des effets des facteurs externes. Dans le
-        mod`ele utilis´e ici :
+Les modèles multifactoriels sont largement utilisés en finance pour expliquer
+les rendements des indices boursiers. Ces mod`eles permettent de distinguer
+les performances propres d’un march´e des effets des facteurs externes. Dans le
+mod`ele utilis´e ici :
+
 • β1 mesure la sensibilit´e du CAC40 au marché européen global (STOXX50),
 • β2 mesure la sensibilit´e du CAC40 `a l’économie allemande DAX,
 • α représente la performance sp´ecifique du CAC40 indépendante des facteurs étudies.
