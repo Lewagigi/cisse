@@ -73,7 +73,7 @@ Rdax(t) = ln Pdax (t)
 Pdax (t−1)
 où Pt est le prix de clˆoture de l’indice à la date t.
 
-# Interprétation des r´esultats
+# Interprétation des résultats
 
 Avant l’estimation, une analyse exploratoire est r´ealis´ee :
 
