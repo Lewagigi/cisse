@@ -26,7 +26,7 @@
             Cette approche permet d’identifier les sources du risque systématique du
             marché français.
             
-  # MODÈLE THÉORIQUE DE REGRESSION LINÉAIRE MULTIPLE 
+# MODÈLE THÉORIQUE DE REGRESSION LINÉAIRE MULTIPLE 
 
          Le rendement du CAC 40 à l’instant t, noté Rcac(t), est expliqué par les rende-
          ments de deux indices de marché Rstoxx(t) et Rdax(t) selon le modèle :
