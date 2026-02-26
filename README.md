@@ -1,9 +1,9 @@
 # PROJET ECONOMIE FINANCIÈRE 
                                   
                                   
-                                  Theme :Analyse de la sensibilit´e du CAC40
-                                 aux march´es europ´eens : un mod`ele
-                                 multifactoriel bas´e sur le STOXX50 et le DAX
+                                  Theme :Analyse de la sensibilité du CAC40
+                                 aux marchés européens : un modèle
+                                 multifactoriel basé sur le STOXX50 et le DAX
                                              Réalisé par :
                                            Christ J BASSE
                                             Malang CISSE
@@ -15,21 +15,21 @@
 
             L’intégration croissante des march´es financiers européens implique une inter-
             d´ependance forte entre les principaux indices boursiers.Le CAC 40, princi-
-            pal indice fran¸cais, est expos´e aux dynamiques ´economiques et financi`eres eu-
-            rop´eennes, notamment via l’Allemagne premi`ere ´economie de la zone europe
-            ainsi que les grands groupes paneurop´eens.
-            L’objectif de ce projet est d’´evaluer la sensibilit´e du CAC 40 aux march´es eu-
-            rop´eens en estimant un mod`ele ´econom´etrique multifactoriel expliquant
+            pal indice français, est exposé aux dynamiques économiques et financières eu-
+            ropéennes, notamment via l’Allemagne première économie de la zone europe
+            ainsi que les grands groupes paneuropéens.
+            L’objectif de ce projet est d’´evaluer la sensibilité du CAC 40 aux marchés eu-
+            ropéens en estimant un mod`ele ´econom´etrique multifactoriel expliquant
             les rendements du CAC 40 par ceux :
-            • du STOXX 50, repr´esentant le march´e europ´een global,
+            • du STOXX 50, repr´esentant le march´e européen global,
             • du DAX, repr´esentant le noyau industriel allemand.
-            Cette approche permet d’identifier les sources du risque syst´ematique du
-            march´e français.
+            Cette approche permet d’identifier les sources du risque systématique du
+            marché français.
             
   # MODÈLE THÉORIQUE DE REGRESSION LINÉAIRE MULTIPLE 
 
-         Le rendement du CAC 40 à l’instant t, noté Rcac(t), est expliqu´e par les rende-
-         ments de deux indices de march´e Rstoxx(t) et Rdax(t) selon le mod`ele :
+         Le rendement du CAC 40 à l’instant t, noté Rcac(t), est expliqué par les rende-
+         ments de deux indices de marché Rstoxx(t) et Rdax(t) selon le modèle :
          Rcac(t) = α+ β1Rstoxx(t) + β2Rdax(t) + εt, t= 1,...,T (1)
          oÙ :
 
@@ -42,29 +42,29 @@
 
 # REVUE DE LA LITTERATURE
 
-        Les mod`eles multifactoriels sont largement utilis´es en finance pour expliquer
+        Les modèles multifactoriels sont largement utilisés en finance pour expliquer
         les rendements des indices boursiers. Ces mod`eles permettent de distinguer
         les performances propres d’un march´e des effets des facteurs externes. Dans le
         mod`ele utilis´e ici :
-• β1 mesure la sensibilit´e du CAC40 au march´e europ´een global (STOXX50),
-• β2 mesure la sensibilit´e du CAC40 `a l’´economie allemande DAX,
-• α repr´esente la performance sp´ecifique du CAC40 ind´ependante des facteurs étudies.
-       Ces paramètres permettent de quantifier la d´ependance du march´e fran¸cais aux
-       facteurs europ´eens et de mieux comprendre les sources de risque syst´ematique.
+• β1 mesure la sensibilit´e du CAC40 au marché européen global (STOXX50),
+• β2 mesure la sensibilit´e du CAC40 `a l’économie allemande DAX,
+• α représente la performance sp´ecifique du CAC40 indépendante des facteurs étudies.
+       Ces paramètres permettent de quantifier la dépendance du marché français aux
+       facteurs européens et de mieux comprendre les sources de risque systématique.
        
 # Définition des données 
 
-  Pour estimer le mod`ele, nous utilisons les indices suivants :
-• CAC40 : indice fran¸cais, repr´esentant le march´e national.
-• STOXX50 : indice paneurop´een, repr´esentant le march´e europ´een global.
+  Pour estimer le modèle, nous utilisons les indices suivants :
+• CAC40 : indice fran¸cais, représentant le marché national.
+• STOXX50 : indice paneuropéen, représentant le marché européen global.
 • DAX : indice allemand, repr´esentant le cœur industriel europ´een.
-  Les donn´ees sont collect´ees sur une p´eriode d´etermin´ee du 02 Janvier 2023
-  au 31 Janvier 2025 avec une fr´equence quotidienne .
+  Les donn´ees sont collectées sur une période déterminée du 02 Janvier 2023
+  au 31 Janvier 2025 avec une fréquence quotidienne .
 
 # Calcul des rendements
   
-Les indices sont transform´es en rendements logarithmiques pour obtenir des
-séries plus stationnaires et adapt´ees `a l’estimation ´econom´etrique :
+Les indices sont transformés en rendements logarithmiques pour obtenir des
+séries plus stationnaires et adaptées à l’estimation économétrique :
 Rcac(t) = ln Pcac (t)
 Pcac (t−1)
 Rstoxx(t) = ln Pstoxx (t)
@@ -75,43 +75,43 @@ où Pt est le prix de clˆoture de l’indice à la date t.
 
 # Interprétation des résultats
 
-Avant l’estimation, une analyse exploratoire est r´ealis´ee :
+Avant l’estimation, une analyse exploratoire est réalisée :
 
 • Corrélations entre Rcac(t)),Rstoxx(t) est 0,9498 et Rdax(t) est 0,8620
 Cette étape permet de d´etecter les tendances, anomalies ou relations fortes entre
-les variables avant l’estimation du mod`ele.
+les variables avant l’estimation du modèle.
 • β1 = 1,135748 est ´elev´e signifie que le CAC40 est fortement influenc´e par
-le march´e europ´een global.
+le marché européen global.
 • β2= - 0,237733 signifie que CAC40 et DAX ´evoluent en sens oppos´e.
-• α= - 0, 015343 , r´ev`ele une performance propre du CAC40 ind´ependante
-des facteurs ´etudiés.
+• α= - 0, 015343 , révèle une performance propre du CAC40 indépendante
+des facteurs étudiés.
 
 
 
-On obtient alors comme mod´ele :
+On obtient alors comme modèle :
 Rcac(t) =−0.015343 + 1.135748 Rstoxx(t)−0.237733 Rdax(t) + εt
 Ajustement du mod´ele R2
 Le coefficient de d´etermination R2 mesure la proportion de la variance des ren-
-dements du CAC40 expliqu´ee par le mod`ele, ici on obtient R2= 0, 9091. omme
-le R2 est proche de 1 on peut conclure que mod`ele est tr`es explicatif.
+dements du CAC40 expliqu´ee par le modèle, ici on obtient R2= 0, 9091. omme
+le R2 est proche de 1 on peut conclure que mod`ele est très explicatif.
 Analyse du premier graphe : Rendements journaliers du CAC 40 et
 du DAX
 Description
 Le premier graphique repr´esente l’´evolution des rendements journaliers de deux
-indices boursiers majeurs : sur la p´eriode allant de janvier 2023 `a d´ebut 2025.
+indices boursiers majeurs : sur la p´eriode allant de janvier 2023 à début 2025.
 Les rendements sont exprim´es en pourcentage et oscillent autour de z´ero.
 
 
  # Analyse statistique
  
-On observe que les deux s´eries pr´esentent :
-• une moyenne proche de z´ero, ce qui est coh´erent avec l’hypoth`ese classique
+On observe que les deux séries présentent :
+• une moyenne proche de zéro, ce qui est coh´erent avec l’hypoth`ese classique
 en finance selon laquelle les rendements journaliers n’ont pas de tendance
 d´eterministe ;
-• une volatilit´e ´elev´ee, caract´eris´ee par de fortes fluctuations quotidiennes.
+• une volatilité élevée, caractérisée par de fortes fluctuations quotidiennes.
 Des rendements extrˆemes sont visibles, notamment autour de l’ann´ee 2024, avec
 des valeurs atteignant ou d´epassant ±3%, ce qui traduit des ´episodes de forte
-instabilit´e des march´es.
+instabilité des marchés.
 Analyse ´economique
 Les deux courbes ´evoluent tr`es souvent dans le mˆeme sens, ce qui sugg`ere une
 corr´elation ´elev´ee entre le CAC 40 et le DAX. Cette similarit´e s’explique par :
@@ -136,20 +136,20 @@ treprises fran¸caises.
 Pouur le α on suppose comme test d’hypoth`eses:
 H0: α = 0,015343
 H1: α ̸= 0,015343 On a un p-value = 0,11 largement sup´erieur `a 0,05 . Donc
-on rejette l’hypoth`ese nulle.
+on rejette l’hypothèse nulle.
 Pouur le β1 on suppose comme test d’hypoth`eses:
 H0: β1 =1.135748
 H1 : β1 ̸=1.135748 On a un p-value = 0,0000 largement inf´erieur `a 0,05.
-Donc on occepte l’hypoth`ese nulle.
+Donc on occepte l’hypothèse nulle.
 Pouur le β2 on suppose comme test d’hypoth`eses:
 H0: β2 = 0.237733
-H1: β1 ̸= 0.237733 On a un p-value = 2,309.10−14 largement inf´erieur `a 0,05.
+H1: β1 ̸= 0.237733 On a un p-value = 2,309.10−14 largement inf´erieur à 0,05.
 Donc on occepte l’hypothèse nulle.
 
 
- Pour les param`etres conjointes: tous les param`etres ont les valeurs list´ees
-pr´ec´edamment contre l’hypoth`eses inverse.
-On a un p-value quasiment nul donc inf´erieur `a 0,05.
+ Pour les paramètres conjointes: tous les paramètres ont les valeurs listées
+précédamment contre l’hypothèses inverse.
+On a un p-value quasiment nul donc inférieur à 0,05.
 Donnc on accepte l’hypoth`ese nulle, donc le mod`ele est valide.
 
 # Conclusion
@@ -162,7 +162,7 @@ l’indice. Les limites de l’´etude concernent notamment la p´eriode analys�
 choix des facteurs. Les perspectives futures incluent l’ajout d’autres facteurs
 macro´economiques et l’extension de la p´eriode d’´etude.
 References
-[1] J. C. Hull, Options, Futures and Other Derivatives, 10e ´edition, Pearson
+[1] J. C. Hull, Options, Futures and Other Derivatives, 10e édition, Pearson
 Education, 2018.
 [2] E. F. Fama, “Efficient Capital Markets: A Review of Theory and Empirical
 Work”, The Journal of Finance, vol. 25, no. 2, pp. 383–417, 1970.
