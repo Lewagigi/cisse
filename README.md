@@ -1,30 +1,31 @@
 # PROJET ECONOMIE FINANCIÈRE 
                                   
                                   
-                                  Theme :Analyse de la sensibilité du CAC40
-                                 aux marchés européens : un modèle
-                                 multifactoriel basé sur le STOXX50 et le DAX
-                                             Réalisé par :
-                                           Christ J BASSE
-                                            Malang CISSE
-                                            Doudou MANE
-                              M2 PSA Université de Lorraine Metz , UFR MIM
+Theme :Analyse de la sensibilité du CAC40
+aux marchés européens : un modèle
+multifactoriel basé sur le STOXX50 et le DAX
+
+Réalisé par :
+Christ J BASSE
+Malang CISSE
+                                
+Doudou MANE
+M2 PSA Université de Lorraine Metz , UFR MIM
                               
-                                           # Introduction
+# Introduction
 
-
-            L’intégration croissante des march´es financiers européens implique une inter-
-            d´ependance forte entre les principaux indices boursiers.Le CAC 40, princi-
-            pal indice français, est exposé aux dynamiques économiques et financières eu-
-            ropéennes, notamment via l’Allemagne première économie de la zone europe
-            ainsi que les grands groupes paneuropéens.
-            L’objectif de ce projet est d’´evaluer la sensibilité du CAC 40 aux marchés eu-
-            ropéens en estimant un mod`ele ´econom´etrique multifactoriel expliquant
-            les rendements du CAC 40 par ceux :
-            • du STOXX 50, repr´esentant le march´e européen global,
-            • du DAX, repr´esentant le noyau industriel allemand.
-            Cette approche permet d’identifier les sources du risque systématique du
-            marché français.
+L’intégration croissante des march´es financiers européens implique une inter-
+d´ependance forte entre les principaux indices boursiers.Le CAC 40, princi-
+pal indice français, est exposé aux dynamiques économiques et financières eu-
+ropéennes, notamment via l’Allemagne première économie de la zone europe
+ainsi que les grands groupes paneuropéens.
+L’objectif de ce projet est d’´evaluer la sensibilité du CAC 40 aux marchés eu-
+ropéens en estimant un mod`ele ´econom´etrique multifactoriel expliquant
+les rendements du CAC 40 par ceux :
+• du STOXX 50, repr´esentant le march´e européen global,
+• du DAX, repr´esentant le noyau industriel allemand.
+Cette approche permet d’identifier les sources du risque systématique du
+marché français.
             
 # MODÈLE THÉORIQUE DE REGRESSION LINÉAIRE MULTIPLE 
 
