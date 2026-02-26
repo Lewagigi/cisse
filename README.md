@@ -1,5 +1,6 @@
-# cisse
 # PROJET ECONOMIE FINANCIÈRE 
+                                  
+                                  
                                   Theme :Analyse de la sensibilit´e du CAC40
                                  aux march´es europ´eens : un mod`ele
                                  multifactoriel bas´e sur le STOXX50 et le DAX
@@ -7,12 +8,12 @@
                                            Christ J BASSE
                                             Malang CISSE
                                             Doudou MANE
-                              M2 PSA Universit´e de Lorraine Metz , UFR MIM
+                              M2 PSA Université de Lorraine Metz , UFR MIM
                               
-                                           # ntroduction
+                                           # Introduction
 
 
-            L’int´egration croissante des march´es financiers europ´eens implique une inter-
+            L’intégration croissante des march´es financiers européens implique une inter-
             d´ependance forte entre les principaux indices boursiers.Le CAC 40, princi-
             pal indice fran¸cais, est expos´e aux dynamiques ´economiques et financi`eres eu-
             rop´eennes, notamment via l’Allemagne premi`ere ´economie de la zone europe
@@ -27,7 +28,7 @@
             
   # MODÈLE THÉORIQUE DE REGRESSION LINÉAIRE MULTIPLE 
 
-         Le rendement du CAC 40 `a l’instant t, noté Rcac(t), est expliqu´e par les rende-
+         Le rendement du CAC 40 à l’instant t, noté Rcac(t), est expliqu´e par les rende-
          ments de deux indices de march´e Rstoxx(t) et Rdax(t) selon le mod`ele :
          Rcac(t) = α+ β1Rstoxx(t) + β2Rdax(t) + εt, t= 1,...,T (1)
          oÙ :
@@ -39,8 +40,8 @@
           • εt est le terme d’erreur, suivant la loi normale centr´e de param´etre :
             E[εt] = 0, Var(εt) = σ2, Cov(εt,εs) = 0 pourt̸= s
 
+# REVUE DE LA LITTERATURE
 
-   # REVUE DE LA LITTERATURE
         Les mod`eles multifactoriels sont largement utilis´es en finance pour expliquer
         les rendements des indices boursiers. Ces mod`eles permettent de distinguer
         les performances propres d’un march´e des effets des facteurs externes. Dans le
@@ -50,8 +51,9 @@
 • α repr´esente la performance sp´ecifique du CAC40 ind´ependante des facteurs étudies.
        Ces paramètres permettent de quantifier la d´ependance du march´e fran¸cais aux
        facteurs europ´eens et de mieux comprendre les sources de risque syst´ematique.
+       
+# Définition des données 
 
- # Définition des données 
   Pour estimer le mod`ele, nous utilisons les indices suivants :
 • CAC40 : indice fran¸cais, repr´esentant le march´e national.
 • STOXX50 : indice paneurop´een, repr´esentant le march´e europ´een global.
@@ -59,7 +61,7 @@
   Les donn´ees sont collect´ees sur une p´eriode d´etermin´ee du 02 Janvier 2023
   au 31 Janvier 2025 avec une fr´equence quotidienne .
 
-  # Calcul des rendements
+# Calcul des rendements
   
 Les indices sont transform´es en rendements logarithmiques pour obtenir des
 séries plus stationnaires et adapt´ees `a l’estimation ´econom´etrique :
@@ -71,7 +73,7 @@ Rdax(t) = ln Pdax (t)
 Pdax (t−1)
 où Pt est le prix de clˆoture de l’indice à la date t.
 
-# Interpr´etation des r´esultats
+# Interprétation des r´esultats
 
 Avant l’estimation, une analyse exploratoire est r´ealis´ee :
 
