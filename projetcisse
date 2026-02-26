@@ -1,0 +1,19 @@
+Pour les param`etres conjointes: tous les param`etres ont les valeurs list´ees
+pr´ec´edamment contre l’hypoth`eses inverse.
+On a un p-value quasiment nul donc inf´erieur `a 0,05.
+Donnc on accepte l’hypoth`ese nulle, donc le mod`ele est valide.
+Conclusion
+Le projet permet de quantifier la sensibilit´e du CAC40 aux march´es europ´eens et
+de mesurer l’impact relatif du STOXX50 et du DAX. Le mod`ele multifactoriel
+montre que le march´e fran¸cais est fortement d´ependant du march´e europ´een
+global et de l’´economie allemande, tout en identifiant la performance propre de
+l’indice. Les limites de l’´etude concernent notamment la p´eriode analys´ee et le
+choix des facteurs. Les perspectives futures incluent l’ajout d’autres facteurs
+macro´economiques et l’extension de la p´eriode d’´etude.
+References
+[1] J. C. Hull, Options, Futures and Other Derivatives, 10e ´edition, Pearson
+Education, 2018.
+[2] E. F. Fama, “Efficient Capital Markets: A Review of Theory and Empirical
+Work”, The Journal of Finance, vol. 25, no. 2, pp. 383–417, 1970.
+[3] R. Cont, “Empirical Properties of Asset Returns: Stylized Facts and Sta-
+tistical Issues”, Quantitative Finance, vol. 1, no. 2, pp. 223–236, 2001.
